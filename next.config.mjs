@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+export const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ["img.pokemondb.net"],
+  },
+};
 
-export default nextConfig;
+// module.exports = nextConfig;
