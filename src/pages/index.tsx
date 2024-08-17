@@ -5,6 +5,7 @@ import { usePokemonSearch } from "@/hooks/usePokemonSearch";
 import { NextPage } from "next";
 import Head from "next/head";
 import { useEffect } from "react";
+import React from "react";
 
 const Home: NextPage = () => {
   const { loading, error, data, searchTerm } = usePokemonSearch();

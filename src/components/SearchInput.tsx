@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
+import React from "react";
 
 const SearchInput: React.FC = () => {
   const router = useRouter();
